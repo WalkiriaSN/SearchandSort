@@ -1,0 +1,56 @@
+body {
+    background-color: #fefcff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.banner {
+    background-color: #ebe2f6;
+    height: 10%;
+    margin-top: 0%;
+
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30%;
+
+}
+
+#form {
+    text-align: center;
+    padding-bottom: 20%;
+}
+
+.search-wrapper{
+    /* display: flex;
+    /* flex-direction: column;
+    gap: .25rem; */
+    text-align: center;
+    padding-bottom: 20%;
+}
+
+.frag-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+.card {
+    border: 1 px dotted black;
+    background-color: white;
+    padding: 0.5rem;
+}
+
+.card .header {
+margin-bottom: .25rem;
+}
+
+.card .body {
+    font-size: .8rem;
+    }
+
+.hide {
+ display: none;
+}
+
+/* hides items as searching */
